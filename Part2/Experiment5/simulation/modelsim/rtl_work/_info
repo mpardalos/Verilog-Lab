@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5/simulation/modelsim
+vcounter_8
+!s110 1542706711
+!i10b 1
+!s100 Kkz32<U7Ja:CXzj5CkZ>Y0
+I@8OUN@6aO0coA5B07j8Mf2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1542706513
+8/home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5/counter_8.v
+F/home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5/counter_8.v
+L0 3
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1542706711.000000
+!s107 /home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5/counter_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5|/home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5/counter_8.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/mpardalos/Documents/Imperial/Year_2/Lab/VERI/Part2/Experiment5
+tCvgOpt 0
