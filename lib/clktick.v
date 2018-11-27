@@ -1,4 +1,4 @@
-module div50000(
+module clktick(
     clkin,
     enable, 
     tick
