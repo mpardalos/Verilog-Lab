@@ -8,7 +8,7 @@ reg [7:1] sreg;
 initial sreg = 7'd1;
 
 always @ (posedge clk)
-    sreg <= {sreg[6:1], sreg[1] ^ sreg[7]};
+    sreg <= {sreg[7:2], sreg[1] ^ sreg[7]};
 
 assign data_out = sreg;
 
