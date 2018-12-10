@@ -29,7 +29,7 @@ clktick #(
 
 clktick #(
     .N_BIT(16),
-    .MAX_COUNT(5000)
+    .MAX_COUNT(500)
 ) div5000 (
     .clkin(tick_ms),
     .enable(1'b1),
@@ -40,7 +40,7 @@ clktick #(
 starting_lights_fsm FSM (
     .clk(tick_ms),
     .tick(tick_hs),
-    .trigger(KEY[3]),
+    .trigger(~KEY[3]),
     .timeout(timeout),
 
     .en_lfsr(en_lfsr),
@@ -87,8 +87,8 @@ wire [3:0] BCD0, BCD1, BCD2, BCD3, BCD4;
 
 hex_to_7seg hex0(HEX0, BCD0);
 hex_to_7seg hex1(HEX1, BCD1);
-// hex_to_7seg hex2(HEX2, BCD2);
-// hex_to_7seg hex3(HEX3, BCD3);
-// hex_to_7seg hex4(HEX4, BCD4);
+hex_to_7seg hex2(HEX2, BCD2);
+hex_to_7seg hex3(HEX3, BCD3);
+hex_to_7seg hex4(HEX4, BCD4);
 
 endmodule

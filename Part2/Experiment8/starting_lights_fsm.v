@@ -12,7 +12,7 @@ output       en_lfsr;
 output       start_delay;
 output [9:0] ledr;
 
-reg       en_lfsr;
+reg       en_lfsr = 1;
 reg       start_delay;
 reg [9:0] ledr;
 
